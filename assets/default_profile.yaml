@@ -1,0 +1,274 @@
+version: 1
+candidate:
+  name: 阳洋
+  note: >
+    当前在字节负责 TikTok Gaming LIVE 海外运营，核心经验覆盖 UK/FR/DE/AU 多区域 Campaign
+    交付、Creator 增长、站内信触达链路 0→1 搭建和 AI 运营提效。已验证结果包括：DE 活动增量
+    $130k→$320k、ROI 提升 12pct；站内信链路累计触达近 50 万主播；AI 违规初筛机制
+    Precision 95%、Recall 100%。默认优先匹配海外运营、出海运营、Global Campaign、
+    Creator/主播运营、整合营销运营、内容增长运营、AI 运营提效等岗位；只做抓取、筛选、汇总，不自动投递。
+  highlights:
+    - TikTok Gaming LIVE 海外运营
+    - UK/FR/DE/AU 多区域 Campaign 交付
+    - DE 活动增量 $130k→$320k，ROI 提升 12pct
+    - 站内信触达链路 0→1，累计触达近 50 万主播
+    - AI 违规初筛 Precision 95%、Recall 100%
+  search_terms:
+    - 海外运营
+    - 出海运营
+    - 海外市场运营
+    - 国际化运营
+    - Global Campaign
+    - Global Campaign Operations
+    - Global Marketing
+    - 海外整合营销
+    - 整合营销运营
+    - Creator Growth
+    - Creator Operations
+    - Creator Partnerships
+    - 主播运营
+    - 达人运营
+    - TikTok LIVE 运营
+    - Live Operations
+    - 社媒运营
+    - 内容运营
+    - 内容增长运营
+    - 用户增长运营
+    - 策略运营
+    - GTM运营
+    - AI 运营提效
+  direction_pool:
+    tier_1_strong:
+      - 海外运营
+      - 出海运营
+      - 海外市场运营
+      - 国际化运营
+      - Global Operations
+      - Global Campaign
+      - Global Campaign Operations
+      - Global Marketing
+      - Campaign Manager
+      - 海外整合营销
+      - 整合营销运营
+      - Integrated Marketing
+      - Creator Growth
+      - Creator Operations
+      - Creator Partnerships
+      - 达人运营
+      - 主播运营
+      - TikTok LIVE 运营
+      - Live Operations
+      - AI 运营提效
+      - AI Operations
+    tier_2_potential:
+      - Brand Marketing
+      - Growth Marketing
+      - Performance Marketing
+      - 用户增长运营
+      - 内容增长运营
+      - Content Growth
+      - User Growth
+      - Community Growth
+      - Livestream Operations
+      - 社媒运营
+      - Social Media Operations
+      - 内容运营
+      - 用户运营
+      - 平台运营
+      - 商业化运营
+      - Marketplace Operations
+    tier_3_extended:
+      - Strategy & Operations
+      - GTM Operations
+      - AI Strategy Operations
+      - Automation Operations
+      - Process Optimization
+      - Ops Excellence
+      - 策略运营
+      - 战略运营
+      - GTM运营
+      - 运营策略
+      - 流程优化
+      - 运营效率
+  score_keywords:
+    - TikTok
+    - Gaming
+    - LIVE
+    - livestream
+    - livestreaming
+    - creator
+    - Creator Growth
+    - creator partnerships
+    - campaign
+    - campaign operations
+    - global
+    - overseas
+    - international
+    - 海外
+    - 出海
+    - 整合营销
+    - marketing
+    - growth
+    - user growth
+    - content growth
+    - community
+    - live operations
+    - creator operations
+    - 运营
+    - AI
+    - automation
+    - efficiency
+    - strategy
+search:
+  cities:
+    - 北京
+    - 上海
+    - 杭州
+    - 深圳
+    - 广州
+    - remote
+  city_pool:
+    tier_1_major:
+      - 北京
+      - 上海
+      - 广州
+      - 深圳
+      - 杭州
+      - remote
+    tier_2_east_china:
+      - 南京
+      - 苏州
+      - 无锡
+      - 常州
+      - 南通
+      - 徐州
+      - 盐城
+      - 扬州
+      - 镇江
+      - 泰州
+      - 宿迁
+      - 连云港
+      - 淮安
+      - 宁波
+      - 温州
+      - 嘉兴
+      - 湖州
+      - 绍兴
+      - 金华
+      - 台州
+      - 舟山
+      - 衢州
+      - 丽水
+      - 合肥
+      - 芜湖
+      - 马鞍山
+      - 蚌埠
+      - 滁州
+      - 阜阳
+      - 安庆
+    tier_2_south_china:
+      - 佛山
+      - 东莞
+      - 珠海
+      - 中山
+      - 惠州
+      - 汕头
+      - 江门
+      - 湛江
+      - 茂名
+      - 肇庆
+      - 福州
+      - 厦门
+      - 泉州
+      - 漳州
+      - 莆田
+      - 南平
+      - 宁德
+      - 龙岩
+      - 三明
+      - 南宁
+      - 桂林
+      - 柳州
+      - 海口
+      - 三亚
+      - 香港
+      - 澳门
+    tier_2_central_china:
+      - 武汉
+      - 长沙
+      - 株洲
+      - 湘潭
+      - 衡阳
+      - 岳阳
+      - 常德
+      - 益阳
+      - 郴州
+      - 郑州
+      - 洛阳
+      - 开封
+      - 新乡
+      - 许昌
+      - 南阳
+      - 南昌
+      - 赣州
+      - 九江
+      - 上饶
+      - 宜春
+      - 吉安
+      - 新余
+    tier_2_north_china:
+      - 天津
+      - 石家庄
+      - 唐山
+      - 秦皇岛
+      - 廊坊
+      - 保定
+      - 济南
+      - 青岛
+      - 烟台
+      - 威海
+      - 潍坊
+      - 临沂
+      - 淄博
+      - 济宁
+      - 东营
+      - 泰安
+      - 太原
+      - 呼和浩特
+      - 包头
+      - 鄂尔多斯
+    tier_2_west_china:
+      - 成都
+      - 重庆
+      - 绵阳
+      - 德阳
+      - 宜宾
+      - 贵阳
+      - 昆明
+      - 西安
+      - 咸阳
+      - 宝鸡
+      - 兰州
+      - 西宁
+      - 银川
+      - 乌鲁木齐
+    tier_2_northeast_china:
+      - 大连
+      - 沈阳
+      - 长春
+      - 哈尔滨
+    tier_3_others:
+      - 台北
+  remote_ok: true
+  min_monthly_salary_k: 15
+  max_monthly_salary_k: 70
+  platforms:
+    - linkedin
+    - indeed
+    - google
+    - boss
+  jobspy_results_per_search: 12
+  boss_pages_per_keyword_city: 1
+  hours_old: 72
+output:
+  top_n: 50

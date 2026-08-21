@@ -1,0 +1,22 @@
+# Output artifacts
+job-radar-output/
+job_radar_*.json
+job_radar_*.csv
+job_radar_*.md
+
+# Resumes / personal data (never commit)
+*.pdf
+*.docx
+resume*.html
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
