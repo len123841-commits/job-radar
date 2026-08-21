@@ -1,0 +1,279 @@
+# =============================================================
+# Job Radar 常见求职画像模板集
+# -------------------------------------------------------------
+# 用法：挑一个和你方向最接近的模板，把它的内容复制到你自己的
+# my_profile.yaml（可从 default_profile.yaml 复制而来），
+# 再按需微调 search_terms / direction_pool / cities / 薪资。
+#
+# 运行：
+#   python3 scripts/job_radar.py plan   --profile assets/my_profile.yaml
+#   python3 scripts/job_radar.py search --profile assets/my_profile.yaml
+#
+# 字段说明见 references/profile-schema.md
+# =============================================================
+
+
+# =============================================================
+# 模板 1：海外运营 / 出海运营
+# =============================================================
+overseas_operations:
+  version: 1
+  candidate:
+    name: 你的名字
+    note: 海外/出海运营方向，覆盖 Global Campaign、Creator 增长、社媒与内容运营。
+    highlights:
+      - 多区域 Campaign 交付经验
+      - Creator / 达人增长
+      - 海外社媒与内容运营
+    search_terms:
+      - 海外运营
+      - 出海运营
+      - 国际化运营
+      - Global Campaign
+      - Creator Growth
+      - Live Operations
+    direction_pool:
+      tier_1_strong:
+        - 海外运营
+        - 出海运营
+        - Global Campaign
+        - Creator Operations
+      tier_2_potential:
+        - 社媒运营
+        - 内容运营
+        - 用户增长运营
+      tier_3_extended:
+        - 策略运营
+        - GTM运营
+    score_keywords:
+      - overseas
+      - global
+      - creator
+      - campaign
+      - livestream
+      - marketing
+      - 海外
+      - 出海
+      - 运营
+  search:
+    cities: [北京, 上海, 深圳, 杭州, remote]
+    remote_ok: true
+    min_monthly_salary_k: 20
+    max_monthly_salary_k: 60
+    platforms: [linkedin, indeed, google, boss]
+    jobspy_results_per_search: 12
+    hours_old: 72
+  output:
+    top_n: 50
+
+
+# =============================================================
+# 模板 2：产品运营
+# =============================================================
+product_operations:
+  version: 1
+  candidate:
+    name: 你的名字
+    note: 产品运营方向，关注用户生命周期、活动策划、数据驱动增长。
+    highlights:
+      - 用户生命周期运营
+      - 活动策划与落地
+      - 数据驱动的运营策略
+    search_terms:
+      - 产品运营
+      - 用户运营
+      - 活动运营
+      - 运营策划
+      - 增长运营
+      - Product Operations
+    direction_pool:
+      tier_1_strong:
+        - 产品运营
+        - 用户运营
+        - 活动运营
+      tier_2_potential:
+        - 内容运营
+        - 社区运营
+        - 增长运营
+      tier_3_extended:
+        - 策略运营
+        - 商业化运营
+    score_keywords:
+      - 产品运营
+      - 用户运营
+      - 活动
+      - 增长
+      - 留存
+      - 转化
+      - 数据
+      - operations
+      - retention
+  search:
+    cities: [北京, 上海, 深圳, 杭州, 广州]
+    remote_ok: false
+    min_monthly_salary_k: 15
+    max_monthly_salary_k: 40
+    platforms: [boss, linkedin, indeed]
+    jobspy_results_per_search: 12
+    hours_old: 72
+  output:
+    top_n: 50
+
+
+# =============================================================
+# 模板 3：增长运营 / 用户增长
+# =============================================================
+growth_operations:
+  version: 1
+  candidate:
+    name: 你的名字
+    note: 增长方向，关注拉新、留存、转化、投放与增长实验。
+    highlights:
+      - 用户拉新与留存
+      - AARRR 全链路增长
+      - 增长实验与投放优化
+    search_terms:
+      - 增长运营
+      - 用户增长
+      - Growth
+      - Growth Operations
+      - User Growth
+      - 增长黑客
+    direction_pool:
+      tier_1_strong:
+        - 用户增长
+        - 增长运营
+        - Growth
+      tier_2_potential:
+        - 产品运营
+        - 投放运营
+        - Performance Marketing
+      tier_3_extended:
+        - 数据运营
+        - 策略运营
+    score_keywords:
+      - growth
+      - 增长
+      - 拉新
+      - 留存
+      - 转化
+      - 投放
+      - AARRR
+      - acquisition
+      - retention
+  search:
+    cities: [北京, 上海, 深圳, 杭州, remote]
+    remote_ok: true
+    min_monthly_salary_k: 20
+    max_monthly_salary_k: 50
+    platforms: [linkedin, indeed, google, boss]
+    jobspy_results_per_search: 12
+    hours_old: 72
+  output:
+    top_n: 50
+
+
+# =============================================================
+# 模板 4：市场营销 / 品牌
+# =============================================================
+marketing:
+  version: 1
+  candidate:
+    name: 你的名字
+    note: 市场营销方向，覆盖品牌、整合营销、内容营销与社媒投放。
+    highlights:
+      - 整合营销 Campaign 策划
+      - 品牌传播与内容营销
+      - 社媒与 KOL 投放
+    search_terms:
+      - 市场营销
+      - 品牌营销
+      - 整合营销
+      - 内容营销
+      - Brand Marketing
+      - Marketing Manager
+    direction_pool:
+      tier_1_strong:
+        - 市场营销
+        - 品牌营销
+        - 整合营销
+      tier_2_potential:
+        - 内容营销
+        - 社媒营销
+        - Performance Marketing
+      tier_3_extended:
+        - 公关传播
+        - 市场策略
+    score_keywords:
+      - marketing
+      - brand
+      - campaign
+      - 品牌
+      - 营销
+      - 传播
+      - KOL
+      - 社媒
+      - content
+  search:
+    cities: [北京, 上海, 广州, 深圳, 杭州]
+    remote_ok: false
+    min_monthly_salary_k: 15
+    max_monthly_salary_k: 45
+    platforms: [boss, linkedin, indeed]
+    jobspy_results_per_search: 12
+    hours_old: 72
+  output:
+    top_n: 50
+
+
+# =============================================================
+# 模板 5：数据分析
+# =============================================================
+data_analysis:
+  version: 1
+  candidate:
+    name: 你的名字
+    note: 数据分析方向，覆盖业务分析、指标体系、SQL/Python 与可视化。
+    highlights:
+      - 业务数据分析与指标体系搭建
+      - SQL / Python 数据处理
+      - 数据可视化与决策支持
+    search_terms:
+      - 数据分析
+      - 数据分析师
+      - 商业分析
+      - Data Analyst
+      - Business Analyst
+      - BI 分析
+    direction_pool:
+      tier_1_strong:
+        - 数据分析师
+        - 商业分析
+        - Data Analyst
+      tier_2_potential:
+        - 数据运营
+        - BI 工程师
+        - Business Analyst
+      tier_3_extended:
+        - 数据产品经理
+        - 策略分析
+    score_keywords:
+      - 数据分析
+      - data analyst
+      - SQL
+      - Python
+      - BI
+      - Tableau
+      - 指标
+      - 报表
+      - analytics
+  search:
+    cities: [北京, 上海, 深圳, 杭州, 成都]
+    remote_ok: false
+    min_monthly_salary_k: 18
+    max_monthly_salary_k: 45
+    platforms: [boss, linkedin, indeed]
+    jobspy_results_per_search: 12
+    hours_old: 72
+  output:
+    top_n: 50
